@@ -1,0 +1,97 @@
+:root{
+    --background:#FFFDE1;
+    --text: #1f2937;
+    --primary:#2563eb;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: Cambria, Cochin, Georgia, Times;
+}
+
+header{
+
+  display: flex;
+  flex-direction: column;   
+  align-items: center;      
+  margin: 10px;              
+  padding: 40px 20px;
+
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.for-header > h1:hover{
+    background-color: blue;
+    color: var(--primary);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.for-header > h2:hover{
+    background-color: blue;
+    color: var(--primary);
+    transition-property:all;
+    transition-duration:1s;
+}
+
+img{
+    border-radius: 50%;
+}
+section , footer {
+    margin-bottom: 5rem;
+    margin-top: 5rem;  
+    padding: 0rem 5rem;
+    padding-right: 5rem;
+    max-width: 1000px;
+}
+
+h2{
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 2.1rem;
+}
+h3{
+    margin: 4px;
+    font-size: 1.4rem;
+}
+
+p{
+    font-size: 1rem;
+}
+nav{
+    margin: 10px;
+}
+nav > a:hover{
+    margin: 0.1rem;
+    background-color: rgb(94, 120, 200);
+    text-decoration: none;
+    color: var(--text);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+article{
+    border: solid black 0.1rem;
+    padding: 0.2rem;
+    border-radius: 10px;
+}
+
+.btn{
+   margin: 1rem;
+   padding: 0.5rem;
+   background-color: whitesmoke;
+   border-radius: 15px;
+   transition-property: all;
+   transition-duration: 1s;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+}
