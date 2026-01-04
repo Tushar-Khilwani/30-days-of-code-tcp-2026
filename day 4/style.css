@@ -1,0 +1,157 @@
+:root{
+    --primary-color: #00bcd4;
+    --accent-color: #ff5252;
+    --text-color: antiquewhite;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: black;
+    color: var(--text-color);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+img{
+    height: 5rem;
+    margin-right: 1rem;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+section{
+    margin: 5%;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section img{
+    height: 15rem;
+}
+
+.hero-text{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    animation: slideUp 1s ease forwards;
+}
+
+.cta-btn{
+    padding: 0.7rem 1.5rem;
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cta-btn:hover{
+    background-color: var(--accent-color);
+}
+
+.Features{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Features > article{
+    text-align: center;
+    border: solid blue;
+    width: 30%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Features > article:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+}
+
+.Features li{
+    list-style-position: inside;
+    margin: 2rem;
+}
+
+.Features h4{
+    margin: 2rem;
+}
+
+h3{
+    margin: 2rem;
+}
+
+.Pricing{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Pricing > div{
+    text-align: center;
+    border: solid yellow;
+    width: 30%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Pricing > div:hover{
+    transform: translateY(-5px);
+    box-shadow: 10px 5px 15px red;
+}
+
+.Pricing ul{
+    list-style-type: none;
+}
+
+.Pricing li{
+    margin: 2rem;
+}
+
+.Pricing h4{
+    margin: 2rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes slideUp{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
