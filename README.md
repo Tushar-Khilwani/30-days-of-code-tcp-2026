@@ -23,6 +23,17 @@ ROLL NO. - 25115109 <br>
 <img width="1920" height="877" alt="Image" src="https://github.com/user-attachments/assets/bf93c298-58fd-42bb-acc2-318f459cb8d7" />
 <img width="1920" height="877" alt="Image" src="https://github.com/user-attachments/assets/e37405e8-237e-44cf-a891-405a3564169d" />
 
+## Day 04
+<img width="1920" height="919" alt="Image" src="https://github.com/user-attachments/assets/4db72568-9421-4ce3-b65e-68b31b8a30f1" />
+<img width="1920" height="919" alt="Image" src="https://github.com/user-attachments/assets/d45f28dc-406a-4cff-bb3b-c3b7909d7f79" />
+<img width="1920" height="919" alt="Image" src="https://github.com/user-attachments/assets/975c982d-14fc-4370-bb54-c58907f9a9b2" />
+
+## Day 05
+
+<img width="1920" height="919" alt="Image" src="https://github.com/user-attachments/assets/f04acab5-20b1-4e09-8102-8f18f71da5d1" />
+
+<img width="1920" height="919" alt="Image" src="https://github.com/user-attachments/assets/3d60fcfd-12cd-4ff0-b838-37fbb137b694" />
+
 
 
 
