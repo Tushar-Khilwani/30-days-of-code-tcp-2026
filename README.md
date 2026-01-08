@@ -42,7 +42,9 @@ ROLL NO. - 25115109 <br>
 
 <img width="1920" height="919" alt="Image" src="https://github.com/user-attachments/assets/486d5323-7a66-48be-afbf-9afe22b5bda8" />
 
+## Day 08
 
+<img width="1920" height="877" alt="Image" src="https://github.com/user-attachments/assets/0172b205-fbaf-496e-b59f-6a82d12aa67e" />
 
 
 
