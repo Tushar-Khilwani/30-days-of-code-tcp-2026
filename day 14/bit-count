@@ -1,0 +1,15 @@
+class Solution {
+  public:
+    int setBits(int n) {
+         
+        int c1 = 0;
+        while(n > 0){
+            
+            
+            if(n%2 == 1) c1++;
+            n = n/2;
+        }
+        
+        return c1;
+    }
+};
