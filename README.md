@@ -81,3 +81,7 @@ ROLL NO. - 25115109 <br>
 ## Day 17
 
 <img width="1920" height="877" alt="Image" src="https://github.com/user-attachments/assets/31b9e8de-3ce3-4b9d-81a5-a01d9987a7ef" />
+
+## Day 18
+
+<img width="1920" height="877" alt="Image" src="https://github.com/user-attachments/assets/7dda8031-d562-4823-9886-e57ef795ef33" />
