@@ -1,0 +1,20 @@
+class Solution {
+  public:
+    int solve(Node* head){
+        if(!head) return 1;
+        int carry = solve(head->next);
+        int sum = head->data + carry;
+        head->data = sum % 10;
+        return sum / 10;
+    }
+
+    Node* addOne(Node* head) {
+        int carry = solve(head);
+        if(carry){
+            Node* n = new Node(carry);
+            n->next = head;
+            head = n;
+        }
+        return head;
+    }
+};
