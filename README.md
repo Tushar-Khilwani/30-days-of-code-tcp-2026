@@ -93,3 +93,7 @@ ROLL NO. - 25115109 <br>
 ## Day 20
 
 <img width="1920" height="877" alt="Image" src="https://github.com/user-attachments/assets/9fdd41b0-7ff3-49b4-b61a-69b7d66846a2" />
+
+## Day 21
+
+<img width="1920" height="877" alt="Image" src="https://github.com/user-attachments/assets/0b08e026-a945-4cc0-8d30-99c5ada02277" />
