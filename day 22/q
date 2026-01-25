@@ -1,0 +1,24 @@
+void push(queue<int> &q, int x) {
+    q.push(x);
+}
+
+int pop(queue<int> &q) {
+    if (q.empty()) return -1;
+    int val = q.front();
+    q.pop();
+    return val;
+}
+
+int getSize(queue<int> &q) {
+    return q.size();
+}
+
+int getBack(queue<int> &q) {
+    if (q.empty()) return -1;
+    return q.back();
+}
+
+int getFront(queue<int> &q) {
+    if (q.empty()) return -1;
+    return q.front();
+}

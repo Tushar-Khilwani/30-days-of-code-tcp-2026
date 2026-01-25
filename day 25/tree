@@ -1,0 +1,30 @@
+vector<vector<int>> getTreeTraversal(TreeNode *root) {
+    vector<int> inorder, preorder, postorder;
+
+    function<void(TreeNode*)> in = [&](TreeNode* node) {
+        if (!node) return;
+        in(node->left);
+        inorder.push_back(node->data);
+        in(node->right);
+    };
+
+    function<void(TreeNode*)> pre = [&](TreeNode* node) {
+        if (!node) return;
+        preorder.push_back(node->data);
+        pre(node->left);
+        pre(node->right);
+    };
+
+    function<void(TreeNode*)> post = [&](TreeNode* node) {
+        if (!node) return;
+        post(node->left);
+        post(node->right);
+        postorder.push_back(node->data);
+    };
+
+    in(root);
+    pre(root);
+    post(root);
+
+    return {inorder, preorder, postorder};
+}

@@ -1,0 +1,37 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int N;
+    long long D;
+    cin >> N >> D;
+
+    vector<long long> P(N);
+    for (int i = 0; i < N; i++) {
+        cin >> P[i];
+    }
+
+    sort(P.begin(), P.end());
+
+    int l = 0, r = N - 1;
+    int wins = 0;
+
+    while (l <= r) {
+        long long mx = P[r];
+        long long need = D / mx + 1;  // minimum team size
+
+        if (r - l + 1 >= need) {
+            wins++;
+            l += (need - 1);  // use weakest players
+            r--;              // use strongest player
+        } else {
+            break;
+        }
+    }
+
+    cout << wins << "\n";
+    return 0;
+}
